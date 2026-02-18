@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: black;
+}
+
+/* Horizontal layout */
+.horizontal-wrapper {
+    display: flex;
+    width: 300vw;
+    /* 3 panels */
+    height: 100vh;
+}
+
+.panel {
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+}
